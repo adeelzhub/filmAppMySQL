@@ -23,7 +23,8 @@ const app = async () => {
         case "update":
             //processargv[3]>>>film name
             //processargv[4]>>>updated entry for co
-            updateFilm(process.argv[3], process.argv[4])    
+            updateFilm(process.argv[3], process.argv[4])  
+            break;  
         default:
             console.log("\nInvalid Command")    
     }
